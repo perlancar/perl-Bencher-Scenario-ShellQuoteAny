@@ -29,5 +29,3 @@ our $scenario = {
 # ABSTRACT:
 
 =head1 SEE ALSO
-
-L<Bencher::Scenario::HashBuilding>
