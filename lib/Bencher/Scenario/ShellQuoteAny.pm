@@ -16,6 +16,9 @@ our $scenario = {
         {
             fcall_template=>'PERLANCAR::ShellQuote::Any::shell_quote(@{<cmd>})',
         },
+        {
+            fcall_template=>'ShellQuote::Any::Tiny::shell_quote(<cmd>)',
+        },
     ],
     datasets => [
         {name=>'empty0', args=>{cmd=>[]}},
